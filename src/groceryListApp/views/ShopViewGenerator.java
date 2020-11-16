@@ -49,7 +49,7 @@ public class ShopViewGenerator {
                 scrollPane.setLayoutY(initialy);
                 previousValue = initialy;
             }else{
-                //prv = previousvalue + gap
+                //prv = previousvalue + gaps
                 current =previousValue + gap;
                 scrollPane.setLayoutY(current);
                 previousValue = current;
